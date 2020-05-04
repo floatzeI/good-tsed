@@ -4,9 +4,6 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "node ./util/build.js",
-        "start:dev": "cross-env ENV_FILE=development nodemon -r ./env --ignore / --exec ts-node-dev src/index.ts --inspect",
-        "start": "cross-env ENV_FILE=production node -r ./env -r module-alias/register ./dist/index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
